@@ -168,7 +168,7 @@ console.log(objDataSupp);
                         <h2 class="text-center"> ${req.body.eat} </h2>
                     </div>
                     <div class="d-flex justify-content-center" style="margin-left: 46%;"    >
-                            <img src="file:///C:/Users/GITSALAH/Desktop/NodeJs/mcdo/backend/app/qrimg/${fileNameQr}" alt="">
+                            <img src="file:///C:/Users/admin/Desktop/mcdo/backend/app/qrimg/${fileNameQr}" alt="">
                     </div>
 
                     <div>
@@ -216,7 +216,7 @@ console.log(objDataSupp);
            `
     // @ts-ignore
     pdf.create(html, options).toFile(filePdfName, function (err, st) {
-        res.send(`file:///C:/Users/GITSALAH/Desktop/NodeJs/mcdo/backend/${filePdfName}`)
+      res.send(`file:///C:/Users/admin/Desktop/mcdo/backend/${filePdfName}`)
     })
   });
   await  stripe.customers.create({
@@ -387,7 +387,7 @@ console.log(objDataSupp);
                         <h2 class="text-center"> ${req.body.eat} </h2>
                     </div>
                     <div class="d-flex justify-content-center" style="margin-left: 46%;"    >
-                            <img src="file:///C:/Users/GITSALAH/Desktop/NodeJs/mcdo/backend/app/qrimg/${fileNameQr}" alt="">
+                    <img src="file:///C:/Users/admin/Desktop/mcdo/backend/app/qrimg/${fileNameQr}" alt="">
                     </div>
 
                     <div>
@@ -436,7 +436,7 @@ console.log(objDataSupp);
            `
     // @ts-ignore
     pdf.create(html, options).toFile(filePdfName, function (err, st) {
-        res.send(`file:///C:/Users/GITSALAH/Desktop/NodeJs/mcdo/backend/${filePdfName}`)
+      res.send(`file:///C:/Users/admin/Desktop/mcdo/backend/${filePdfName}`)
     })
   });
 
